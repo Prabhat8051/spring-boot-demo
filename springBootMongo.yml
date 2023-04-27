@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: trialcontainer
-        image: sarathsps123/trial
+        image: sarathsps123/trialnew
         ports:
         - containerPort: 8080
 ---
