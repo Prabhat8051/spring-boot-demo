@@ -21,7 +21,7 @@ spec:
         app: trial
     spec:
       containers:
-       - image: sarathsps123/trial
+       - image: sarathsps123/trial:latest
          imagePullPolicy: Always
          name: trialcontainer
          ports:
