@@ -15,11 +15,11 @@ spec:
         app: trial
     spec:
       containers:
-      - name: trialcontainer
-        image: sarathsps123/trial
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8080
+       - image: sarathsps123/trial
+         imagePullPolicy: Always
+         name: trialcontainer
+         ports:
+         - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
