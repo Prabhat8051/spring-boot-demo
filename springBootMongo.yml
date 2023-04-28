@@ -21,7 +21,7 @@ spec:
         app: trial
     spec:
       containers:
-       - image: sarathsps123/trial:latest
+       - image: indium01/trial-latest
          imagePullPolicy: Always
          name: trialcontainer
          ports:
